@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .main{
+            height: 500px;
+            width: 1200px;
+            background-color: aliceblue;
+            position: relative;
+            
+        }
+        .box1{
+            position:absolute;
+            left:20px;
+            top:20px;
+        }
+        .box2{
+            position:absolute;
+            left:230px;
+            top:20px;
+        }
+        .box3{
+            position:absolute;
+            left:490px;
+            top:20px;
+
+        }
+        .box4{
+            position:absolute;
+            left:800px;
+            top:20px;
+
+        }
+
+        .a {
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+        }
+        .b{
+            width:200px;
+            height: 200px;
+            border: 20px solid rgb(79, 79, 169);
+        }
+        .c{ width:240px;
+            height: 240px;
+            border: 20px solid rgb(79, 79, 169);
+        }
+        .d{ width:240px;
+            height: 240px;
+            border: 20px solid rgb(79, 79, 169);
+            margin-top: 60px;
+        }
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <main class="main">
+    
+        <div>
+            <div class="box1">
+                <p style="margin-left: 50px;font-size: 30px;">200*200</p>
+                <div class="a">width:200 </br>height:200</br>--------------------</br>Total:200*200</br>
+                </div>
+                <div style="margin-top: 150px;font-size: 30px;padding-left: 20px;">200*200</div>
+            </div>
+
+            <div class="box2">
+                <p style="margin-left: 50px;font-size: 30px;">+Border:20</p>
+                <div class="b">width:200 </br>height:200</br>border:20</br>--------------------</br>Total:240*240</br>
+                </div>
+                <div style="margin-top: 110px;font-size: 30px;padding-left: 20px;">240*240</div>
+            </div>
+            <div class="box3">
+                <p style="margin-left: 50px;font-size: 30px;">+padding:20px</p>
+                <div class="c">width:200 </br>height:200</br>padding:20px</br>--------------------</br>Total:240*240</br>
+                </div>
+                <div style="margin-top: 65px;font-size: 30px;padding-left: 20px;">240*240</div>
+            </div>
+            <div class="box4">
+                <p style="margin-left: 50px;font-size: 30px;">+margin:20px</p>
+                <div class="d">width:200 </br>height:200</br>padding:20px</br>margin:20px</br>--------------------</br>Total:200*200</br>
+                </div>
+                <div style="margin-top:40px;font-size: 30px;padding-left: 20px;">280*280</div>
+            </div>
+        </div>
+        </main>
+        
+    
+</body>
+
+</html>
